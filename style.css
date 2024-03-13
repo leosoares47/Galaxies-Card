@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121214;
+  padding: 72px 104px;
+  display: grid;
+  justify-content: center;
+}
+
+header {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 72px;
+  color: #02799d;
+}
+
+header p {
+  font-size: 32px;
+  color: #e1e1e6;
+  font-weight: 600;
+}
+
+.caixas {
+  margin-top: 62px;
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  gap: 48px 60px;
+}
+
+.pic {
+  background: #202024;
+  border: 2px solid #323238;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.pic h2 {
+  color: #e1e1e6;
+  font-size: 36px;
+  font-weight: 900;
+  padding: 24px 32px 0;
+}
+
+.pic p {
+  font-family: "Mulish", sans-serif;
+  color: #c4c4cc;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 24px 32px 32px;
+}
